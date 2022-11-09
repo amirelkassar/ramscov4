@@ -654,14 +654,16 @@ section {
   margin-top: 20px;
   position: relative;
 }
-.clients .swiper-pagination .swiper-pagination-bullet {
+.clients .swiper-pagination .swiper-pagination-bullet,
+.newsletter .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #004E41;
 }
-.clients .swiper-pagination .swiper-pagination-bullet-active {
+.clients .swiper-pagination .swiper-pagination-bullet-active,
+.newsletter .swiper-pagination .swiper-pagination-bullet-active{
   background-color: #004E41;
 }
 
@@ -1426,4 +1428,25 @@ section {
 }
 #footer .credits {
   font-size: 13px;
+}
+.newsletter .swiper-slide{
+  text-align:center;
+  margin: 0 auto 86px;
+  background: #004E41;
+  overflow: hidden;
+   transition:all .5s;
+}
+.newsletter .swiper-slide:hover{
+  transform:translateY(-8px);
+  transition:all .5s;
+}
+.newsletter .swiper-slide .caption{
+ width: 100%;
+ color:#fff;
+ padding: 22px;
+ text-align: left;
+}
+.newsletter img{
+  max-height: 199px;
+  min-width: 433px;
 }
