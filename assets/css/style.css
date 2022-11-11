@@ -371,13 +371,13 @@ h1, h2, h3, h4, h5, h6 {
 .container1{
   background-color: #f8fcf9;
   margin: 32px;
-  border: 1px solid ##f8fcf9;
+  border: 1px solid #f8fcf9;
   border-radius: 10px;
   padding: 20px;
 }
 .container12{
   background-color: #f8fcf9;
-  border: 1px solid ##f8fcf9;
+  border: 1px solid #f8fcf9;
   border-radius: 10px;
   padding: 20px;
   margin-top: 0;
@@ -1202,7 +1202,7 @@ section {
 .h2{
   color: red;
 }
-}
+
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 300;
@@ -1429,12 +1429,15 @@ section {
 #footer .credits {
   font-size: 13px;
 }
-.newsletter .swiper-slide{
+.newsletter-slider .swiper-wrapper .swiper-slide{
   text-align:center;
   margin: 0 auto 86px;
   background: #004E41;
   overflow: hidden;
    transition:all .5s;
+   width: 450px !important;
+   margin-right: 20px !important;
+   height: 500px !important;
 }
 .newsletter .swiper-slide:hover{
   transform:translateY(-8px);
@@ -1446,7 +1449,18 @@ section {
  padding: 22px;
  text-align: left;
 }
-.newsletter img{
-  max-height: 199px;
-  min-width: 433px;
+.newsletter  .swiper-slide img{
+  height: 80% !important;
+  width: 100% !important;
+}
+.newsletter  .swiper-slide iframe{
+  height: 80% !important;
+  width: 100% !important;
+}
+.newsletter-readmore{
+  color: #80c792;
+  text-decoration: none;
+}
+.newsletter-readmore:hover{
+  text-decoration: underline;
 }
