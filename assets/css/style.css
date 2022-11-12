@@ -1467,6 +1467,11 @@ section {
 
 @media only screen and (max-width: 600px) {
   .newsletter-slider .swiper-wrapper .swiper-slide{
-     width: 400px !important;
+     width: 100% !important;
+     height: 700px !important;
+  }
+  .newsletter  .swiper-slide img{
+    object-fit: cover;
+    height: 75% !important;
   }
 }
