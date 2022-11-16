@@ -1437,7 +1437,7 @@ section {
    transition:all .5s;
    width: 700px !important;
    margin-right: 20px !important;
-   height: 500px !important;
+   height: 550px !important;
 }
 .newsletter .swiper-slide:hover{
   transform:translateY(-8px);
@@ -1447,7 +1447,9 @@ section {
  width: 100%;
  color:#fff;
  padding: 22px;
- text-align: left;
+ font-size: 1.2rem;
+ font-weight: bold;
+ text-align: center;
 }
 .newsletter  .swiper-slide img{
   height: 80% !important;
@@ -1464,7 +1466,16 @@ section {
 .newsletter-readmore:hover{
   text-decoration: underline;
 }
-
+.event-title{
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 200px; 
+  height: 1.2em; 
+  white-space: nowrap;
+}
+.content-rtl{
+  direction: rtl;
+}
 @media only screen and (max-width: 600px) {
   .newsletter-slider .swiper-wrapper .swiper-slide{
      width: 100% !important;
