@@ -35,4 +35,7 @@ flex-direction: column;
 	.carousel-cell{
 		width: 100%;
 		}
+		.carousel{
+			padding-bottom: 20px;
+		}
   }
