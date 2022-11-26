@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Vazirmatn:wght@100;200;400;600;700&display=swap');
 body {
 font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -1470,11 +1471,12 @@ section {
   text-overflow: ellipsis;
   overflow: hidden; 
   width: 200px; 
-  height: 1.2em; 
+  height: 1.4em; 
   white-space: nowrap;
 }
 .content-rtl{
   direction: rtl;
+  font-family: 'Noto Sans Arabic', sans-serif;
 }
 @media only screen and (max-width: 600px) {
   .newsletter-slider .swiper-wrapper .swiper-slide{

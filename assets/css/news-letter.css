@@ -5,9 +5,9 @@
 }
 .news-cover-img{
     border-radius: 15px;
-    width: 100% ;
+    width: 50% ;
     height: 600px;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 @media only screen and (max-width: 600px) {
